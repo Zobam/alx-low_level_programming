@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - makes while loop run infinitely
- *
- * Return: always 0
+ * main - causes an infinite loop
+ * Return: 0
  */
 
 int main(void)
