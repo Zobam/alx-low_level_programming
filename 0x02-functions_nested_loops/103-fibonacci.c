@@ -4,7 +4,7 @@
  * main -  finds and prints the sum of the even-valued
  * terms, followed by a new line
  *
- * return: 0 always
+ * Return: 0 always
  */
 
 int main(void)
