@@ -36,9 +36,9 @@ int _isnumber(char *s)
 
 int main(int argc, char **argv)
 {
-	int i, sum, return_value;
+	int i, sum, xcode;
 
-	return_value = 0, sum = 0;
+	xcode = 0, sum = 0;
 	if (argc > 1)
 	{
 		for (i = 1; i < argc; i++)
@@ -46,12 +46,12 @@ int main(int argc, char **argv)
 			if (_isnumber(argv[i]))
 				sum += atoi(argv[i]);
 			else
-				return_value = 1;
+				xcode = 1;
 		}
 	}
-	if (return_value == 0)
+	if (xcode == 0)
 		printf("%i\n", sum);
 	else
 		printf("%s\n", "Error");
-	return (return_value);
+	return (xcode);
 }
