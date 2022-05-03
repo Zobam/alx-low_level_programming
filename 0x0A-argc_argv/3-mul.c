@@ -10,18 +10,18 @@
 
 int main(int argc, char **argv)
 {
-	int product, return_value;
+	int product, xcode;
 
-	return_value = 0;
+	xcode = 0;
 	if (argc != 3)
 	{
 		printf("%s\n", "Error");
-		return_value = 1;
+		xcode = 1;
 	}
 	else
 	{
 		product = atoi(argv[1]) * atoi(argv[2]);
 		printf("%i\n", product);
 	}
-	return (return_value);
+	return (xcode);
 }
