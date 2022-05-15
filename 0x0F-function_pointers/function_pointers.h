@@ -1,5 +1,5 @@
-#ifndef _MAIN_H_
-#define _MAIN_H_
+#ifndef FILE_F_POINTRS
+#define FILE_F_POINTRS
 
 int _putchar(char c);
 void print_name(char *name, void (*f)(char *));
