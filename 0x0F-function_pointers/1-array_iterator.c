@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "function_pointers.h"
 
 /**
@@ -6,7 +7,6 @@
  * @size: size of array
  * @action: pointer function
  *
- * Return: index of first found other number other wise
  */
 
 void array_iterator(int *array, size_t size, void (*action)(int))
